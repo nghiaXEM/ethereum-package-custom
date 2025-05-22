@@ -5,7 +5,7 @@ new_prefunded_account = import_module(
 IMAGE = "wealdtech/ethereal:latest"
 
 
-def get_accounts(plan, mnemonic, num_of_keys=21):
+def get_accounts(plan, mnemonic, num_of_keys=0):
     PRE_FUNDED_ACCOUNTS = []
     plan.print("mnemonic: {0}".format(mnemonic))
     for current_key in range(num_of_keys):
