@@ -71,7 +71,7 @@ def launch(
         plan, service_name, constants.RPC_PORT_ID
     )
 
-    # TODO: Passing empty string for metrics_url for now https://github.com/ethpandaops/ethereum-package/issues/127
+    # TODO: Passing empty string for metrics_url for now https://github.com/nghiaXEM/ethereum-package-custom/issues/127
     # metrics_url = "http://{0}:{1}".format(service.ip_address, METRICS_PORT_NUM)
     ethjs_metrics_info = None
 
