@@ -6,4 +6,10 @@ def new_prefunded_account(address, private_key):
 #  1) https://iancoleman.io/bip39/
 #  2) Enter the mnemonic (unless you use the default)
 #  3) Copying the pubkey/priv key outputted information
-PRE_FUNDED_ACCOUNTS = []
+PRE_FUNDED_ACCOUNTS = [
+    # m/44'/60'/0'/0/0
+    new_prefunded_account(
+        "0x890Cf1D531a4abe12Af6D0220530a188029afF7F",
+        "0xd7c01388477979060203c5438e3e5602c1c7aa9b9c5c89f9d8121830a47e17cd",
+    )
+]

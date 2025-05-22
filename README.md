@@ -715,8 +715,8 @@ network_params:
   withdrawal_type: "0x00"
 
   # Withdrawal address
-  # Default to "0x8943545177806ED17B9F23F0a21ee5948eCaa776" - 0 address of mnemonic
-  withdrawal_address: "0x8943545177806ED17B9F23F0a21ee5948eCaa776"
+  # Default to "0x890Cf1D531a4abe12Af6D0220530a188029afF7F" - 0 address of mnemonic
+  withdrawal_address: "0x890Cf1D531a4abe12Af6D0220530a188029afF7F"
 
   # Validator balance
   # Default to 32 ETH
